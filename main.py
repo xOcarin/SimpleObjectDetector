@@ -17,7 +17,6 @@ with open(classFile, 'rt') as f:
 configPath = 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt'
 weightsPath = 'frozen_inference_graph.pb'
 
-#adsjfasdjfkasjdfa
 
 net = cv2.dnn_DetectionModel(weightsPath, configPath)
 net.setInputSize(320, 320)
