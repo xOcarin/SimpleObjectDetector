@@ -10,7 +10,7 @@ cap.set(4, 1080)
 
 #goofy ahh array
 classNames= []
-classFile = 'coco.names lmaooooooooooooooooooooooooooooo'
+classFile = 'coco.names'
 with open(classFile, 'rt') as f:
     classNames = f.read().rstrip('\n').split('\n')
 
